@@ -14,7 +14,7 @@
    e) Requirement to add an explanation about the change
    f) They would have to use a branched/ancestry system that tracks what came from where.
 
-   Explanation:
+Explanation:
    Upon file upload, it checks for wether or not there are changes.
    It then tracks what the changes are onto a txt document.
    Then it tracks the names of who changed it.
@@ -25,3 +25,12 @@
    if they have no similarities then its good to go
    If there are similarities, it requests a fix from both editors and waits for a new change.
 
+Wrap up question:
+   The most frustrating part about the cooperation was, while there were little issues with combining the lines, there wasn't a solid way we could turn the lines    into something that worked together efficiently. It's all combined effectively, but it isn't a poem.
+
+   Our system solves the combining of the lines most efficiently, because we keep anything that is not original text, but we don't when they overlap
+
+   If ten people tried to collaborate this way, they would very often overlap text, thus giving them errors
+
+   Our design handles someone deleting an edited file, but unfortunately does not with the original file. With our design, the original file is expected to be 
+   uploaded, yet copyable.
